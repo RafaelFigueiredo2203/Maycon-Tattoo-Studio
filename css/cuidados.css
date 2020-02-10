@@ -1,0 +1,220 @@
+@charset"UTF-8";
+@font-face{
+	font-family: 'Milasian'; 
+	src: url("../fonts/MilasianCircaThinPERSONAL.ttf");
+
+}
+body{
+	background-image: url("../imagens/fundo2.jpg");
+	background-attachment: fixed;
+}
+header#cabecalho h1{
+	font-family: 'Milasian';
+	color: white;
+	font-size: 80pt;
+	text-align: center;
+	border-top:1px white solid;
+	border-bottom: 1px white solid;
+	margin-top:30px; 
+	background-color: #000000;
+}
+h2{
+	text-align: left;
+	font-family: "Castellar" ;
+	color:white;
+	font-size: 18pt;
+	padding: 10px;
+}
+p{
+	font-family: "Bell MT" sans-serif;
+	color:white;
+	font-size:15pt;
+	text-align: left;
+	padding: 15px;
+	width: 1300px; 
+}
+p#link{
+	font-family: "Bell MT" sans-serif;
+	color:white;
+	font-size:15pt;
+	text-align: center;
+	
+
+}
+p#link a{
+	text-decoration: none;
+	color: white;
+}
+p#link a:hover{
+	text-decoration: underline;
+	color:#606060;
+}
+
+
+header#cabecalho img#icone{
+			position: absolute;
+			right:1440px;
+			top:50px;
+		}
+header#cabecalho img#icone2{
+	position: absolute;
+			left:1440px;
+			top:50px;
+
+}
+/*Formatação do menu */
+		nav#menu {
+			display:block;
+			
+
+		}
+
+		nav#menu ul {
+			list-style: none;
+			text-transform: uppercase;
+			position: absolute;
+			top: -20px;
+			left:28%;
+			border-bottom: 1px white solid;
+
+		}
+		nav#menu li {
+			font-family: "Times New Roman";
+			font-size:18pt;
+			display: inline-block;
+			color: white;
+			background-color:none;
+			padding:5px;
+			margin:159px 10px 0px 10px;
+			transition: background-color: 1s;
+			
+		}
+		nav#menu li:hover {
+			background-color: none;
+
+
+		}
+		nav#menu h1{
+			display:none;
+
+		}
+		nav#menu a{
+			color: white;
+			text-decoration: none;
+		}
+		nav#menu a:hover{
+			color:white;
+			text-decoration: underline;
+		}
+		/* Mostra o submenu no evento de mouse hover */
+nav#menu > .menu-list > li:hover > .sub-menu {
+  display: block;
+ 
+  
+}
+/* Configura o estilo do submenu */
+nav#menu > .menu-list > li > .sub-menu {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  min-width: 50px;
+  z-index: 1000;
+  display: none;
+  list-style: none;
+ text-transform: uppercase;
+  }
+
+/* Configura os links do submenu */
+nav#menu > .menu-list > li > .sub-menu > li > a {
+	padding: 1px 1px;
+	width: 1px;
+}
+/* Clearfix para o menu */
+nav#menu:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+		div#interface{
+			border-left:2px solid white;
+			border-right: 2px solid white;
+
+			margin:10px auto 0px auto;
+
+		}
+h3{
+	text-align: center;
+	color: white;
+	font-family: 'Milasian';
+	font-size: 40pt;
+	background-color: #606060;
+}
+
+footer#rodape {
+			clear: both;
+			border-top: 1px solid white;
+
+
+}
+img#c1{
+	padding: 20px;
+	padding-left: 25px;
+}
+img#c2{
+	padding: 20px;
+	padding-left: 25px;
+}
+img#c3{
+	padding: 20px;
+	padding-left: 25px;
+}
+h5{
+	color:white;
+}
+a{
+	text-decoration: none;
+	color:#AAAAAA;
+}
+a:hover{
+	text-decoration: underline;
+	color:#F4A460;
+}
+p#p{
+	text-align: center;
+}
+
+h5#topo{
+	position: absolute;
+	padding: 0px;
+	top:-19px;
+	font-size:13pt;
+	left:40px;
+
+}
+img#logo2{
+	position:absolute;
+	top: 7px;
+	left:313px;
+}
+img#logo3{
+	position:absolute;
+	top: 7px;
+	left:16px;
+}
+h5#botao2{
+	position: absolute;
+	color:white;
+	top:1400px;
+	right:99px;
+	background-color: #606060;
+	font-size:25pt;
+
+}
+h5#botao2 a:hover{
+	text-decoration: underline;
+	color:#F4A460;
+
+}
