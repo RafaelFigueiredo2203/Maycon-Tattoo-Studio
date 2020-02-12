@@ -4,6 +4,18 @@
 	src: url("../fonts/MilasianCircaThinPERSONAL.ttf");
 
 }
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+
+@media screen and (min-width: 400px) {
+  @import url(desktop.css);
+}
+
+@media screen and (max-width: 400px) {
+  @import url(mobile.css);
+}
 body{
 	background-image: url("../imagens/fundo2.jpg");
 	background-attachment: fixed;
